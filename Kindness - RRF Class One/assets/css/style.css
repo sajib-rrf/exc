@@ -1,0 +1,136 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+color: #545454;
+}
+a:hover { text-decoration: none }
+h2 {font-size: 32px;}
+
+.box-bg-1 { background-image: url(../img/box-bg-1.jpg); }
+.box-bg-2 { background-image: url(../img/box-bg-2.jpg); }
+.box-bg-3 { background-image: url(../img/box-bg-3.jpg); }
+
+
+.section-title {
+    color: #565656;
+    font-size: 17px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.section-title h2 {
+    color: #222;
+}
+
+
+.title-hr {
+    background: #ff9219 none repeat scroll 0 0;
+    height: 2px;
+    margin: 0 auto 15px;
+    padding: 0;
+    position: relative;
+    width: 100px;
+}
+.title-hr::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 35px;
+    position: absolute;
+    width: 30px;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+
+
+.blog-box-bg {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    border-image: none;
+    border-left: 1px solid #ff9219;
+    border-right: 1px solid #ff9219;
+    border-top: 1px solid #ff9219;
+    height: 200px;
+}
+.blog-box-content {
+}
+.blog-box-content {
+    border: 1px solid #e9e9e9;
+    padding: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+}
+.blog-box-meta .fa {
+    color: #ff9219;
+}
+.blog-box-meta {
+    font-size: 14px;
+}
+.blog-box-meta span {
+    padding-right: 10px;
+}
+.blog-box-meta a {
+    color: #565656;
+}
+.blog-box-meta span:last-child {
+    margin-right: 0px;
+}
+.blog-box-content h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.blog-readmore-btn {
+    background-color: #ff9219;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+}
+.blog-readmore-btn:hover {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+.single-blog-box:hover .blog-box-bg {
+}
+.single-blog-box:hover .blog-box-content {
+    border-color: #fd8e2e;
+}
