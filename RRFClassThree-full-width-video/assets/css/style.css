@@ -1,0 +1,94 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+color: #8B8B8B;
+}
+
+h3 {
+    color: #000;
+}
+a:hover { text-decoration: none }
+
+.video-area-bg {
+    background-image: url(../img/video-area-bg.jpg);
+    background-color: #ddd; 
+    background-position: center;
+    background-size: cover;
+}
+.check-icon li:before {font-family: fontAwesome; content: "\f00c"}
+
+.video-area {
+  position: relative;
+  padding: 80px;
+}
+.video-area-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 44%;
+    box-shadow: 0 0 20px #000;
+}
+
+a.video-play-btn {
+    background: #1BA261 none repeat scroll 0 0;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 80px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 25px;
+    margin-right: -40px;
+    margin-top: -40px;
+    display: inline-block;
+}
+
+
+ul.check-icon {
+    color: #666;
+    font-size: 16px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+ul.check-icon li {
+    height: 25px;
+    padding-bottom: 27px;
+    padding-left: 26px;
+    position: relative;
+}
+ul.check-icon li::before {
+    color: #1ba261;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
