@@ -1,0 +1,90 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+color: #8D8D8D;
+line-height: 22px;
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 70px;
+}
+.bg-image {
+    position: relative;
+}
+.bg-image {
+    position: absolute;
+    background-image: url(../img/bgimage.jpg);
+    background-size: cover;
+    background-color: #ddd;
+    width: 45%;
+    height: auto;content: "";
+    left: 0;top: 0;
+}
+h2.heading-title {
+    color:  #373737;
+    font-size:  30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+h2.heading-title span {
+    color: #19B6FF;
+}
+.collapse-area {
+    min-height: 320px;
+    margin-top: 25px;
+}
+
+.collapse-area .panel-default>.panel-heading {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0px;
+}
+.collapse-area .panel-default>.panel-heading h4 a {
+display: block;
+padding: 15px;
+color: #1C1C1C;
+}
+.collapse-area .panel-group .panel {
+    border-radius: 0px;
+}
+.collapse-area .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: transparent;
+}
+.collapse-area .panel-default>.panel-heading h4 a i.fa{
+    display: none;
+    float: right;
+}
+.collapse-area .panel-default>.panel-heading h4 a[aria-expanded="true"] i.fa.fa-angle-down{
+    display: block;
+}
+.collapse-area .panel-default>.panel-heading h4 a[aria-expanded="false"] i.fa.fa-angle-up{
+    display: block;
+}
+
+
