@@ -1,0 +1,138 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+color: #717171;
+}
+a:hover { text-decoration: none }
+
+
+
+.section-padding {
+    margin: 50px 0;
+}
+
+.section-tittle {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.section-tittle h2 {
+    font-size: 29px;
+}
+.section-tittle h2 span {
+    color: #26A65B;
+}
+.section-tittle P {
+    color: #717171;
+    line-height: 30px;
+}
+
+
+.pricing-box {
+    border: 1px solid #d6ddd9;
+    padding: 42px 0;
+    text-align: center;
+    transition: .3s;
+}
+
+.pricing-box:hover {
+    box-shadow: 0 0 9px -5px #26a65b;
+    border: 1px solid #26a65b;
+}
+.pricing-box:hover img {
+  opacity: .5;
+}
+.pricing-box:hover i {
+   color: #26a65b;
+}
+
+.pricing-tittle {
+    color: #444544;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.pricing-icon {
+    margin: 25px;
+    min-height: 50px;
+}
+
+.pricing-icon img {
+    height: 50px;
+    transition: .3s;
+}
+
+.pricing-icon i {
+    font-size: 50px;
+    transition: .3s;
+}
+
+
+
+
+
+
+.pricing-list {
+    margin-bottom: 25px;
+    text-align: left;
+}
+.pricing-list ul {
+  list-style: outside none none;
+  padding-left: 45px;
+}
+
+.pricing-list ul li {
+     line-height: 24px;
+    font-size: 14px;
+}
+.pricing-list ul li:before {
+    font-family: fontAwesome;
+    content:"\f00c";
+    color:#26a65b;
+    padding-right: 10px
+}
+.pricing-list ul li.list-off:before {
+    content:"\f00d";
+    color: #ED1313;
+}
+h2.pricing-amount {
+    color: #000;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-transform: none;
+}
+a.pricing-button {
+    border: 1px solid #26a65b;
+    border-radius: 50px;
+    color: #636463;
+    font-weight: 600;
+    padding: 9px 20px;
+    transition: all 0.3s ease 0s;
+}
+a.pricing-button:hover {
+    background-color: #26a65b;
+    color: #fff;
+}
