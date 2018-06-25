@@ -1,0 +1,116 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+    padding: 80px;
+}
+.section-title {
+    margin-bottom: 50px;
+}
+.title-border span {
+    background: #6aaf08 none repeat scroll 0 0;
+    border-radius: 4px;
+    display: inline-block;
+    height: 5px;
+    width: 42px;
+}
+.title-border span.black-border {
+    background-color: #333;
+    margin: 0 6px;
+    width: 30px;
+}
+
+
+.single-testimonial-item {
+    box-shadow: 0 0 2px #808080;
+    margin: 2px;
+    padding: 20px;
+}
+.single-testimonial-item p {
+    color: #6d6f6d;
+    font-style: italic;
+}
+.single-testimonial-item h3 {
+    color: #333;
+    font-size: 18px;
+}
+.single-testimonial-item h3 span {
+    color: #808080;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 6px;
+}
+.single-testimonial-item {
+  padding-left: 70px;
+  position: relative;
+}
+.single-testimonial-item::before {
+  color: #6aaf08;
+  content: "\f10e";
+  font-family: fontAwesome;
+  font-size: 19px;
+  left: 0;
+  line-height: 30px;
+  margin-top: -15px;
+  padding: 0 20px;
+  position: absolute;
+  top: 50%;
+}
+.single-testimonial-item::after {
+  background-color: #ddd;
+  content: "";
+  height: 80%;
+  left: 60px;
+  margin: 5% 0;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+.testimonial-carousel .owl-dots {
+    text-align: center;
+ padding: 5px 0;
+}
+.testimonial-carousel .owl-dots div {
+  background-color: #6aaf08;
+  display: inline-block;
+  height: 5px;
+  margin: 28px 5px 0 auto;
+  transition: all 0.3s ease 0s;
+  width: 20px;
+  border-radius: 2px;
+}
+.testimonial-carousel .owl-dots div.active {
+  background-color: #333;
+  width: 28px;
+}
