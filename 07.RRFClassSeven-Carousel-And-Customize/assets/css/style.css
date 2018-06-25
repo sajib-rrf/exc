@@ -1,0 +1,122 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color:  #797979;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-tittle {
+  color: #797979;
+  margin-bottom: 70px;
+}
+
+.section-tittle h2 {
+    font-size: 28px;
+    color: #000;
+    position:  relative;
+}
+
+.section-tittle h2:after {
+    position:  absolute;
+    content:  "";
+    height: 4px;
+    width: 53px;
+    bottom:  0;
+    left: 0;
+    margin-bottom: -10px;
+    background: #14ADF3;
+    border-radius: 20px;
+    z-index: 99;
+}
+.section-tittle h2:before {
+  background: #ddd none repeat scroll 0 0;
+  border-radius: 20px;
+  bottom: 0;
+  content: "";
+  height: 4px;
+  left: 0;
+  margin-bottom: -10px;
+  position: absolute;
+  width: 61px;
+  z-index: -99;
+}
+
+.section-tittle p {
+    margin: 25px 0;
+}
+
+.single-staff-list img {
+  border-radius: 50%;
+  height: 160px;
+  max-width: 160px;
+  width: 160px;
+}
+.staff-list {
+    color: #4e4e4e;
+}
+.staff-meta {
+    color: #a6a6a6;
+    margin-top: 30px;
+}
+.staff-meta h2 {
+    color: #2B2B2B;
+    font-size: 18px;
+    display: inline;
+    text-transform: uppercase;
+}
+.single-staff-list p {
+  line-height: 20px;
+}
+
+.staff-list .owl-nav div {
+    background-color: #f3f3f3;
+    color: #767676;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    margin-left: 2px;
+    padding: 8px;
+    text-align: center;
+    width: 45px;
+    transition: .3s;
+}
+.staff-list .owl-nav div:hover {
+    background-color: #14adf3;
+    color: #fff;
+}
+.staff-list .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
