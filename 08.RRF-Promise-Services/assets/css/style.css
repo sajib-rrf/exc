@@ -1,0 +1,104 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color: #8B8B8B;
+
+}
+a:hover { text-decoration: none }
+.gray-bg {
+    background-color: #FAFAFA;
+}
+/*
+.service-bg-1 {background-image: url(../img/service-bg-1.jpg);}
+.service-bg-2 {background-image: url(../img/service-bg-2.jpg);}
+.service-bg-3 {background-image: url(../img/service-bg-3.jpg);}
+.service-bg-4 {background-image: url(../img/service-bg-4.jpg);}
+*/
+
+.service-bg-1 {background-image: url(https://image.ibb.co/ctZyLT/service_bg_1.jpg);}
+.service-bg-2 {background-image: url(https://image.ibb.co/fCnUS8/service_bg_2.jpg);}
+.service-bg-3 {background-image: url(https://image.ibb.co/jiHJLT/service_bg_3.jpg);}
+.service-bg-4 {background-image: url(https://image.ibb.co/n5Sw78/service_bg_4.jpg);}
+
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+}
+.section-title h2 {
+  color: #333;
+  font-size: 25px;
+}
+
+
+
+.single-service-box {
+    border-radius: 0;
+    border-radius: 5px;
+}
+
+.single-service-box:hover {
+    box-shadow: 0 1px 9px 5px #e4f5eb;
+}
+
+.service-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    min-height: 220px;
+}
+.service-content {
+    background-color: #fff;
+    padding: 20px;
+}
+.service-content h3 {
+    color: #333;
+    font-size: 18px;
+}
+.service-content p {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+a.service-btn:hover {
+    background: #2ecc71 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px 18px;
+}
+a.service-btn {
+    color: #2ECC71;
+    font-weight: bold;
+    transition: .3s;
+    font-weight: 600;
+    padding: 10px 0px;
+    border-radius: 50px;
+}
+a.service-btn:hover i.fa {
+    padding-left: 5px
+}
